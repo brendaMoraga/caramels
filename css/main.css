@@ -1,0 +1,239 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7f7f7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+main {
+  background-color: #f7f7f7;
+}
+
+nav {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  color: #504c65;
+}
+nav p {
+  font-size: 20px;
+  padding: 0 0 0 40px;
+}
+nav .icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+nav .icons button {
+  background-color: #f7f7f7;
+  cursor: pointer;
+  width: 66px;
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  align-items: center;
+}
+nav .icons button img {
+  align-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+}
+
+article {
+  color: #504c65;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 10px;
+}
+article .impact-section h1 {
+  font-size: 3em;
+}
+article .impact-section p {
+  text-align: justify;
+  font-size: 1.2em;
+  width: 78%;
+}
+article .impact-section button {
+  background: none;
+  border-style: none;
+}
+article .impact-section button {
+  width: 120px;
+  background-color: #6a839a;
+  color: #f7f7f7;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 35px;
+}
+article img {
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+section {
+  height: auto;
+  background-color: #e2e2e2;
+}
+section .moda-soft h2, section .acerca-de h2, section .moda-circular h2 {
+  color: #504c65;
+  font-size: 1.5em;
+  padding: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+section .moda-soft .card-section, section .acerca-de .card-section, section .moda-circular .card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+section .moda-soft .product-card, section .acerca-de .product-card, section .moda-circular .product-card {
+  height: auto;
+  background-color: #c8d1e6;
+  border-radius: 9px;
+  width: 30vw;
+  height: 52vh;
+  margin: 30px;
+}
+section .moda-soft .product-card .icon, section .acerca-de .product-card .icon, section .moda-circular .product-card .icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+section .moda-soft .product-card .icon img, section .acerca-de .product-card .icon img, section .moda-circular .product-card .icon img {
+  width: 20px;
+  height: auto;
+}
+section .moda-soft .product-card h3, section .acerca-de .product-card h3, section .moda-circular .product-card h3 {
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+}
+section .moda-soft .product-card p, section .acerca-de .product-card p, section .moda-circular .product-card p {
+  margin: 10px;
+  font-size: 14px;
+}
+section .moda-soft .product-card .product-image, section .acerca-de .product-card .product-image, section .moda-circular .product-card .product-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+section .moda-soft .product-card .product-image img, section .acerca-de .product-card .product-image img, section .moda-circular .product-card .product-image img {
+  width: 25vw;
+  height: 35vh;
+  border-radius: 9px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .moda-circular .product-card {
+  background-color: #6a839a;
+  color: #e2e2e2;
+}
+
+.mission-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mission-section .earth {
+  display: flex;
+  gap: 40px;
+  width: 40vw;
+}
+.mission-section .earth img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 30%;
+  max-height: 60%;
+}
+.mission-section .earth p {
+  text-align: justify;
+  max-width: 30%;
+}
+
+.galeria h2 {
+  font-weight: bold;
+  padding: 30px;
+}
+.galeria .gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.galeria .gallery-images img {
+  width: 30vw;
+  height: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 5px 35%;
+     object-position: 5px 35%;
+}
+.galeria .gallery-images img:hover {
+  transform: scale(1.2);
+}
+
+.locacion {
+  color: #504c65;
+}
+.locacion h2 {
+  padding: 60px;
+}
+.locacion .map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  padding: 0 60px;
+}
+.locacion h3, .locacion p {
+  padding: 0 60px;
+}
+
+footer {
+  background-color: #d5a441;
+  width: 100%;
+  height: 200px;
+  color: white;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer .social-media img {
+  width: 30px;
+  padding: 5px;
+}/*# sourceMappingURL=main.css.map */
